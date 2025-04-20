@@ -17,6 +17,7 @@ from sklearn.metrics import confusion_matrix, accuracy_score, precision_score, r
 
 # Load dataset
 dataset = pd.read_csv('./Test.csv')
+print(len(dataset))
 
 # Text preprocessing
 nltk.download('stopwords')
