@@ -15,3 +15,6 @@ regex>=2021.8.3
 # Additional utilities
 joblib>=1.0.0
 pickle-mixin>=1.0.2
+
+# Missing dependencies from code
+scipy>=1.7.0
